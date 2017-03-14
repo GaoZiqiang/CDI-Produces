@@ -3,6 +3,9 @@ package cn.edu.sdut.softlab.connectioninterface;
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
 
+import cn.edu.sdut.sotflab.qualifier.Simple;
+
+@Simple
 public class ConnectionImpl implements Connection {
 	@PostConstruct
 	private void initConn() {
